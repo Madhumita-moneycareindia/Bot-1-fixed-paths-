@@ -1,0 +1,18 @@
+# NSE DataSync Pro GUI Requirements
+
+# Core dependencies from original bot
+requests>=2.31.0
+cryptography>=41.0.0
+schedule>=1.2.0
+python-dotenv>=1.0.0
+urllib3>=2.0.0
+
+# GUI dependencies
+Pillow>=10.0.0
+pystray>=0.19.4
+
+# Windows-specific (optional)
+# pywin32>=305 ; platform_system == "Windows"
+
+# Packaging tools (for creating executables)
+# pyinstaller>=6.0.0

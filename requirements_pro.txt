@@ -1,0 +1,39 @@
+# NSE DataSync Pro - Professional Edition Requirements
+# Core GUI Framework
+tkinter>=8.6  # Usually included with Python
+
+# Network and HTTP
+requests>=2.28.0
+urllib3>=1.26.0
+
+# Cryptography and Security
+cryptography>=3.4.8
+
+# Image Processing and GUI
+Pillow>=9.0.0
+pystray>=0.19.0
+
+# Scheduling and Task Management
+schedule>=1.2.0
+
+# Data Processing
+pandas>=1.5.0  # Optional, for advanced data analysis
+
+# Windows-specific (optional, for enhanced Windows integration)
+pywin32>=227; platform_system=="Windows"
+
+# Development and Testing (optional)
+pytest>=7.0.0; extra=="dev"
+black>=22.0.0; extra=="dev"
+flake8>=4.0.0; extra=="dev"
+
+# Additional utilities
+python-dateutil>=2.8.0
+pathlib2>=2.3.0; python_version<"3.4"
+
+# Optional: Enhanced logging and monitoring
+colorlog>=6.6.0; extra=="enhanced"
+psutil>=5.9.0; extra=="enhanced"
+
+# Anti-virus compatibility
+# No additional packages needed - using built-in libraries for compatibility

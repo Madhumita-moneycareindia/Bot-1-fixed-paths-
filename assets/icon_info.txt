@@ -1,0 +1,11 @@
+NSE DataSync Pro - Professional Icons
+=====================================
+
+Icon files needed for professional appearance:
+- nse_icon.ico (Windows desktop shortcut)
+- nse_icon.png (Application icon)
+- splash_screen.png (Loading screen)
+
+Note: Install Pillow to generate actual icon files:
+pip install Pillow
+python create_assets.py
